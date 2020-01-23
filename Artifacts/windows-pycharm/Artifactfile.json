@@ -8,7 +8,7 @@
       "Pycharm",
       "Jetbrains"
     ],
-    "iconUri": "https://github.com/merca/devtestlabs-artifacts/raw/master/Artifacts/windows-pycharm/PyCharm-community.2019.3.2.png",
+    "iconUri": "https://raw.githubusercontent.com/merca/devtestlabs-artifacts/master/Artifacts/windows-pycharm/PyCharm-community.2019.3.2.png",
     "targetOsType": "Windows",
     "runCommand": {
       "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'pycharm', '\"')]"
