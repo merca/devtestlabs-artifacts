@@ -7,7 +7,7 @@
       "Windows",
       "Python"      
     ],
-    "iconUri": "https://github.com/merca/devtestlabs-artifacts/raw/master/windows-python/python-logo.png",
+    "iconUri": "https://github.com/merca/devtestlabs-artifacts/raw/master/Artifacts/windows-python/python-logo.png",
     "targetOsType": "Windows",
     "runCommand": {
       "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'python', '\"')]"
