@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Chrome",
+    "publisher": "merca",
+    "description": "Installs Python using the Chocolatey package manager",
+    "tags": [
+      "Windows",
+      "Python"      
+    ],
+    "iconUri": "https://github.com/merca/devtestlabs-artifacts/raw/master/windows-python/python-logo.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+      "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./install-choco-package.ps1 -Packages ', 'python', '\"')]"
+    }
+  }
